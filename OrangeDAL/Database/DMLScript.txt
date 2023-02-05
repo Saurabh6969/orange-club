@@ -1,0 +1,36 @@
+﻿USE [OrangeDb]
+GO
+/****** Object:  Table [dbo].[tbl_reservation]    Script Date: 02/05/2023 01:10:08 ******/
+SET IDENTITY_INSERT [dbo].[tbl_reservation] ON
+INSERT [dbo].[tbl_reservation] ([reservationId], [memberId], [reservationDate], [reservationSlot], [Facility], [Status]) VALUES (1, 7, CAST(0x0000B00000000000 AS DateTime), N'4', N'T', N'P')
+INSERT [dbo].[tbl_reservation] ([reservationId], [memberId], [reservationDate], [reservationSlot], [Facility], [Status]) VALUES (2, 7, CAST(0x0000B08000000000 AS DateTime), N'5', N'T', N'P')
+INSERT [dbo].[tbl_reservation] ([reservationId], [memberId], [reservationDate], [reservationSlot], [Facility], [Status]) VALUES (3, 7, CAST(0x0000B02400000000 AS DateTime), N'2', N'P', N'P')
+INSERT [dbo].[tbl_reservation] ([reservationId], [memberId], [reservationDate], [reservationSlot], [Facility], [Status]) VALUES (4, 7, CAST(0x0000B06100000000 AS DateTime), N'4', N'C', N'P')
+SET IDENTITY_INSERT [dbo].[tbl_reservation] OFF
+/****** Object:  Table [dbo].[tbl_member]    Script Date: 02/05/2023 01:10:08 ******/
+SET IDENTITY_INSERT [dbo].[tbl_member] ON
+INSERT [dbo].[tbl_member] ([memberId], [fName], [lName], [gender], [address], [email], [phone], [dob], [doj], [memberType], [accountStatus], [statusRemark], [maritalStatus], [sportsPerson], [deptId], [username], [dateOfExpiry], [due]) VALUES (6, N'admin', N'admin', N'm', N'safadf', N'sa@sa.com', 2342343333, CAST(0x0000622300000000 AS DateTime), CAST(0x0000AF9F01577D86 AS DateTime), N's', 1, N'Membership under Consideration', N'm', 0, 1, N'admin', CAST(0x0000AFF801577D86 AS DateTime), 0)
+INSERT [dbo].[tbl_member] ([memberId], [fName], [lName], [gender], [address], [email], [phone], [dob], [doj], [memberType], [accountStatus], [statusRemark], [maritalStatus], [sportsPerson], [deptId], [username], [dateOfExpiry], [due]) VALUES (7, N'ak', N'ak', N'f', N'safadf', N'sa@sa.com', 2342343333, CAST(0x0000622300000000 AS DateTime), CAST(0x0000AF9F01656589 AS DateTime), N't', 1, N'Membership under Consideration', N'm', 0, 1, N'ak', CAST(0x0000AFF801656589 AS DateTime), -700)
+INSERT [dbo].[tbl_member] ([memberId], [fName], [lName], [gender], [address], [email], [phone], [dob], [doj], [memberType], [accountStatus], [statusRemark], [maritalStatus], [sportsPerson], [deptId], [username], [dateOfExpiry], [due]) VALUES (8, N'Akshata', N'Shetty', N'f', N'Thane west 1', N'abc@ab.com', 7734465656, CAST(0x00005DD900000000 AS DateTime), CAST(0x0000AFA0000CD9B0 AS DateTime), N'p', 1, N'Membership under Consideration', N'm', 2, 1, N'akshata', CAST(0x0000B3E8000CE9E4 AS DateTime), 0)
+INSERT [dbo].[tbl_member] ([memberId], [fName], [lName], [gender], [address], [email], [phone], [dob], [doj], [memberType], [accountStatus], [statusRemark], [maritalStatus], [sportsPerson], [deptId], [username], [dateOfExpiry], [due]) VALUES (9, N'Sagar', N'Pandey', N'm', N'Thane west', N'abc@ab.com', 7734465656, CAST(0x00005DD900000000 AS DateTime), CAST(0x0000AFA0000D4575 AS DateTime), N'a', 1, N'Membership under Consideration', N'm', 0, 1, N'sagar', CAST(0x0000B3E8000D4843 AS DateTime), 0)
+INSERT [dbo].[tbl_member] ([memberId], [fName], [lName], [gender], [address], [email], [phone], [dob], [doj], [memberType], [accountStatus], [statusRemark], [maritalStatus], [sportsPerson], [deptId], [username], [dateOfExpiry], [due]) VALUES (10, N'admin', N'Jyoti', N'f', N'Jha', N'abc@ab.com', 7734465656, CAST(0x0000643B00000000 AS DateTime), CAST(0x0000AFA0000E3486 AS DateTime), N't', 1, N'Membership under Consideration', N'm', 0, 1, N'jyoti', CAST(0x0000AFF9000E3486 AS DateTime), 0)
+SET IDENTITY_INSERT [dbo].[tbl_member] OFF
+/****** Object:  Table [dbo].[tbl_Login]    Script Date: 02/05/2023 01:10:08 ******/
+INSERT [dbo].[tbl_Login] ([username], [password], [role], [securityQuestion], [securityAnswer]) VALUES (N'admin', N'+EUKl8x+OObRCUJch7QWNA==', N's', N'sa', N'sa')
+INSERT [dbo].[tbl_Login] ([username], [password], [role], [securityQuestion], [securityAnswer]) VALUES (N'ak', N'UPnCyTZdD5RMTsj9jRaiSg==', N'm', N'', N'')
+INSERT [dbo].[tbl_Login] ([username], [password], [role], [securityQuestion], [securityAnswer]) VALUES (N'akshata', N'LZEHKMCiW9fCM4BelXOb9w==', N'm', N'sa', N'sa')
+INSERT [dbo].[tbl_Login] ([username], [password], [role], [securityQuestion], [securityAnswer]) VALUES (N'jyoti', N'+EUKl8x+OObRCUJch7QWNA==', N'm', N'sa', N'sa')
+INSERT [dbo].[tbl_Login] ([username], [password], [role], [securityQuestion], [securityAnswer]) VALUES (N'sagar', N'LxfLFePoQg3MMpgIgdc5Sg==', N'm', N'sa', N'sa')
+/****** Object:  Table [dbo].[tbl_fee]    Script Date: 02/05/2023 01:10:08 ******/
+/****** Object:  Table [dbo].[tbl_facility]    Script Date: 02/05/2023 01:10:08 ******/
+/****** Object:  Table [dbo].[tbl_discount]    Script Date: 02/05/2023 01:10:08 ******/
+/****** Object:  Table [dbo].[tbl_department]    Script Date: 02/05/2023 01:10:08 ******/
+/****** Object:  Table [dbo].[tbl_billingInfo]    Script Date: 02/05/2023 01:10:08 ******/
+SET IDENTITY_INSERT [dbo].[tbl_billingInfo] ON
+INSERT [dbo].[tbl_billingInfo] ([billId], [memberId], [paymentMode], [paymentFor], [Date], [amountPaid], [chequeNo], [branchName], [bankName], [cardNo], [cvcNo], [cardExpiryDate], [cardType], [paymentStatus], [paymentRemark], [reservationId]) VALUES (1, 7, N'c', N'Pending Dues', CAST(0x0000AF9F0166E464 AS DateTime), 200, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, N'pending', NULL)
+INSERT [dbo].[tbl_billingInfo] ([billId], [memberId], [paymentMode], [paymentFor], [Date], [amountPaid], [chequeNo], [branchName], [bankName], [cardNo], [cvcNo], [cardExpiryDate], [cardType], [paymentStatus], [paymentRemark], [reservationId]) VALUES (2, 7, N'c', N'Reservation', CAST(0x0000AF9F017C401C AS DateTime), 500, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, N'pending', NULL)
+SET IDENTITY_INSERT [dbo].[tbl_billingInfo] OFF
+/****** Object:  Table [dbo].[tbl_Addon]    Script Date: 02/05/2023 01:10:08 ******/
+SET IDENTITY_INSERT [dbo].[tbl_Addon] ON
+INSERT [dbo].[tbl_Addon] ([addOnId], [memberId], [referenceId], [relation]) VALUES (1, 9, 8, N'Spouse')
+SET IDENTITY_INSERT [dbo].[tbl_Addon] OFF

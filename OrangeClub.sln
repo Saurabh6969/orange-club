@@ -1,0 +1,119 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrangeDAL", "OrangeDAL\OrangeDAL.csproj", "{619CFFDE-6019-4F00-8A99-C320C8FD48A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrangeBL", "OrangeBL\OrangeBL.csproj", "{2A2F631A-2C52-4A91-ADC5-4E6C762CB942}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrangeController", "OrangeController\OrangeController.csproj", "{4F7D4B53-A03A-41C8-9805-89B454EFE721}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{D378B7A1-4C0D-41C1-964E-9B2AF738ED9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrangeExceptionSolution", "OrangeExceptionSolution\OrangeExceptionSolution\OrangeExceptionSolution.csproj", "{22BFB96D-3B74-450A-B962-DA797B6771D3}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ClubOrangeUI", "ClubOrangeUI\", "{8D42182F-2367-451B-8CF4-94BFEB080B0E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		ProjectReferences = "{d378b7a1-4c0d-41c1-964e-9b2af738ed9a}|Entity.dll;{2a2f631a-2c52-4a91-adc5-4e6c762cb942}|OrangeBL.dll;{4f7d4b53-a03a-41c8-9805-89b454efe721}|OrangeController.dll;{22bfb96d-3b74-450a-b962-da797b6771d3}|OrangeExceptionSolution.dll;{619CFFDE-6019-4F00-8A99-C320C8FD48A4}|OrangeDAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_64668"
+		Debug.AspNetCompiler.PhysicalPath = "ClubOrangeUI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64668\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_64668"
+		Release.AspNetCompiler.PhysicalPath = "ClubOrangeUI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64668\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64668"
+		SlnRelativePath = "ClubOrangeUI\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{619CFFDE-6019-4F00-8A99-C320C8FD48A4}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{619CFFDE-6019-4F00-8A99-C320C8FD48A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{619CFFDE-6019-4F00-8A99-C320C8FD48A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{619CFFDE-6019-4F00-8A99-C320C8FD48A4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{619CFFDE-6019-4F00-8A99-C320C8FD48A4}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{619CFFDE-6019-4F00-8A99-C320C8FD48A4}.Release|.NET.ActiveCfg = Release|Any CPU
+		{619CFFDE-6019-4F00-8A99-C320C8FD48A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{619CFFDE-6019-4F00-8A99-C320C8FD48A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{619CFFDE-6019-4F00-8A99-C320C8FD48A4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{619CFFDE-6019-4F00-8A99-C320C8FD48A4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{2A2F631A-2C52-4A91-ADC5-4E6C762CB942}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{2A2F631A-2C52-4A91-ADC5-4E6C762CB942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A2F631A-2C52-4A91-ADC5-4E6C762CB942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A2F631A-2C52-4A91-ADC5-4E6C762CB942}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2A2F631A-2C52-4A91-ADC5-4E6C762CB942}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2A2F631A-2C52-4A91-ADC5-4E6C762CB942}.Release|.NET.ActiveCfg = Release|Any CPU
+		{2A2F631A-2C52-4A91-ADC5-4E6C762CB942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A2F631A-2C52-4A91-ADC5-4E6C762CB942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A2F631A-2C52-4A91-ADC5-4E6C762CB942}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2A2F631A-2C52-4A91-ADC5-4E6C762CB942}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4F7D4B53-A03A-41C8-9805-89B454EFE721}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{4F7D4B53-A03A-41C8-9805-89B454EFE721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F7D4B53-A03A-41C8-9805-89B454EFE721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F7D4B53-A03A-41C8-9805-89B454EFE721}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4F7D4B53-A03A-41C8-9805-89B454EFE721}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4F7D4B53-A03A-41C8-9805-89B454EFE721}.Release|.NET.ActiveCfg = Release|Any CPU
+		{4F7D4B53-A03A-41C8-9805-89B454EFE721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F7D4B53-A03A-41C8-9805-89B454EFE721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F7D4B53-A03A-41C8-9805-89B454EFE721}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4F7D4B53-A03A-41C8-9805-89B454EFE721}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{D378B7A1-4C0D-41C1-964E-9B2AF738ED9A}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{D378B7A1-4C0D-41C1-964E-9B2AF738ED9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D378B7A1-4C0D-41C1-964E-9B2AF738ED9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D378B7A1-4C0D-41C1-964E-9B2AF738ED9A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D378B7A1-4C0D-41C1-964E-9B2AF738ED9A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D378B7A1-4C0D-41C1-964E-9B2AF738ED9A}.Release|.NET.ActiveCfg = Release|Any CPU
+		{D378B7A1-4C0D-41C1-964E-9B2AF738ED9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D378B7A1-4C0D-41C1-964E-9B2AF738ED9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D378B7A1-4C0D-41C1-964E-9B2AF738ED9A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{D378B7A1-4C0D-41C1-964E-9B2AF738ED9A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{22BFB96D-3B74-450A-B962-DA797B6771D3}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{22BFB96D-3B74-450A-B962-DA797B6771D3}.Debug|.NET.Build.0 = Debug|Any CPU
+		{22BFB96D-3B74-450A-B962-DA797B6771D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22BFB96D-3B74-450A-B962-DA797B6771D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22BFB96D-3B74-450A-B962-DA797B6771D3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{22BFB96D-3B74-450A-B962-DA797B6771D3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{22BFB96D-3B74-450A-B962-DA797B6771D3}.Release|.NET.ActiveCfg = Release|Any CPU
+		{22BFB96D-3B74-450A-B962-DA797B6771D3}.Release|.NET.Build.0 = Release|Any CPU
+		{22BFB96D-3B74-450A-B962-DA797B6771D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22BFB96D-3B74-450A-B962-DA797B6771D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22BFB96D-3B74-450A-B962-DA797B6771D3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{22BFB96D-3B74-450A-B962-DA797B6771D3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{8D42182F-2367-451B-8CF4-94BFEB080B0E}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{8D42182F-2367-451B-8CF4-94BFEB080B0E}.Debug|.NET.Build.0 = Debug|Any CPU
+		{8D42182F-2367-451B-8CF4-94BFEB080B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D42182F-2367-451B-8CF4-94BFEB080B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D42182F-2367-451B-8CF4-94BFEB080B0E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8D42182F-2367-451B-8CF4-94BFEB080B0E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8D42182F-2367-451B-8CF4-94BFEB080B0E}.Release|.NET.ActiveCfg = Debug|Any CPU
+		{8D42182F-2367-451B-8CF4-94BFEB080B0E}.Release|.NET.Build.0 = Debug|Any CPU
+		{8D42182F-2367-451B-8CF4-94BFEB080B0E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D42182F-2367-451B-8CF4-94BFEB080B0E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{8D42182F-2367-451B-8CF4-94BFEB080B0E}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8D42182F-2367-451B-8CF4-94BFEB080B0E}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBD38256-493A-4144-B23A-9ADF1BB2C61A}
+	EndGlobalSection
+EndGlobal
