@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrangeExceptionSolution", "
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ClubOrangeUI", "ClubOrangeUI\", "{8D42182F-2367-451B-8CF4-94BFEB080B0E}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
 		ProjectReferences = "{d378b7a1-4c0d-41c1-964e-9b2af738ed9a}|Entity.dll;{2a2f631a-2c52-4a91-adc5-4e6c762cb942}|OrangeBL.dll;{4f7d4b53-a03a-41c8-9805-89b454efe721}|OrangeController.dll;{22bfb96d-3b74-450a-b962-da797b6771d3}|OrangeExceptionSolution.dll;{619CFFDE-6019-4F00-8A99-C320C8FD48A4}|OrangeDAL.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_64668"
 		Debug.AspNetCompiler.PhysicalPath = "ClubOrangeUI\"
